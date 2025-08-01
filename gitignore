@@ -1,0 +1,14 @@
+# .gitignore
+
+# Android/Java
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# macOS
+*.DS_Store
