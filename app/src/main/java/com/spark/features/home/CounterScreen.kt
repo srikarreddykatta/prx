@@ -29,7 +29,6 @@ fun CounterScreen(
 
         contentAlignment = Alignment.Center
     ) {
-        Log.d("srikar", "RECOMPOSING box")
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text("Count: $count", style = MaterialTheme.typography.headlineMedium)
 
@@ -38,7 +37,6 @@ fun CounterScreen(
             Button(onClick = { counterScreenViewModel.increment() }) {
                 Text("Increment")
             }
-            Log.d("srikar", "RECOMPOSING button")
             Spacer(modifier = Modifier.height(16.dp))
             Button(onClick = { counterScreenViewModel.decrement() }) {
                 Text("Decrement")
